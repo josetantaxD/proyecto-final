@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(10, 246, 207);
+}
+.caja-grande{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradientto right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.739),url(../imagenes/docentes.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(317, 61%, 33%, 0.705), hsla(354, 67%, 56%, 0.739)),url(../imagenes/docentes.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.caja-grande .caja1{
+    height: 100px;
+    margin: auto;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-grande .caja1 h2{
+    font-size: 50px;
+    color: white;
+}
